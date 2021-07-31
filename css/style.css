@@ -1,0 +1,176 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Coda);
+html,body{ height:100%; max-height:100%; background: #000; font-family: 'Oswald', sans-serif; }
+
+
+.cargando { display: block; background: #000; overflow: hidden; position: absolute; left: 0px; top: 0px; z-index: 9999;
+	width: 100%; height: 100%; text-align: center; color: #333; font-family: 'Oswald', sans-serif; font-size: 50px;
+}
+
+*{ margin:0; padding:0; }
+h2 { font-family: 'Oswald', sans-serif; }
+
+/*	----------***************------- ENCABEZADO ----------***************------- */
+
+
+.encabezado { position: absolute; left: 0px; top: 15px; width: 100%; position: relative; }
+.datos { font-family: 'Coda', cursive; color: #fff; padding: 5px 30px; border: #fff 4px solid;  border-left: 0px; width: 25%;
+-webkit-border-radius: 0px 25px 25px 0px; border-radius: 0px 25px 25px 0px; background: #e0116c url(../img/cantante5.png) top left no-repeat; }
+.datos h2 { margin: 0px; padding: 0px; color: #ff0; font-size: 35px; text-align: center; }
+.datos h3 { margin: 0px; padding: 0px; color: #fff; font-size: 25px; text-align: center; text-align: center; font-family: 'Coda', cursive; }
+.datos .telefonos { font-size: 20px; margin: 20px 0px; display: block; padding-left: 15px; border-left: #fff 5px solid; }
+.datos b {color: #ff0; } 
+.pagocontarjeta { text-align: center; }
+.redes { display: block; height: 80px; }
+.facebook, .twitter { width: 60px; height: 60px; margin: 5px; display: block; float: left; }
+.facebook img, .twitter img {width: 60px; height: 60px; margin: 5px; }
+.encabezado .redes {display: block; width: 300px; overflow: hidden; }
+
+.encabezado .pagocontarjeta { display: block; margin: 15px 0px 15px -30px; color: #ff0; font-size: 20px; }
+
+/*	----------***************------- MENU ----------***************------- */
+.menu { width: 300px; height: 100%; background: #000; position: absolute; right: 0px; z-index: -1; }
+.menu ul { padding: 50px; font-family: 'Oswald', sans-serif; }
+.menu ul li { list-style: none; padding: 5px 0px;  }
+.menu ul li a { text-decoration: none; color: #666; font-size: 20px; line-height: 20px; padding: 10px 0px; display: block; }
+.menu ul li a:hover { color: #FF3; }
+
+
+
+/*	----------***************------- PORTADA ----------***************------- */
+.imagen_index { width: 100%; height: 100%; display: block; overflow: hidden; background: #333; position: relative; }
+.imagen_index .imagen { width: 100%; position: absolute; margin: 0px auto; top:0; }
+.enlace a { width: 160px; height: 50px; background: url("../img/menu.png"); display: block; position: absolute; top: 25px; right: 25px; text-indent: -9999px; z-index: 9990; }
+.regresar a { width: 193px; height: 60px; background: url("../img/up.png"); display: block; position: absolute; bottom: 25px; right: 25px;  position: fixed; z-index: 3000; text-indent: -9999px; opacity: 1;  }
+
+.scroll { width: 260px; position: absolute; margin: 0px auto; left:0; right:0; bottom: 30px; cursor: pointer; }
+
+
+/*	----------***************------- VENTAJAS ----------***************------- */
+.contenido_index { width: 100%; background: #49389d url(../img/cantante2.png) top right no-repeat; position: relative; z-index: 1000; display: block; overflow: hidden; } 
+
+.foto-ventajas { width: 20%;	display: block;	float: left; height: 600px; overflow: hidden; position: relative; margin-left: 5%;
+	-webkit-box-shadow: 10px 0 50px 3px #050505; box-shadow: 10px 0 50px 3px #050505;}
+.foto-ventajas img { width: 100%; float: right; }
+
+.informacion-ventajas { width: 65%; float: right; margin-right: 5%; display: block; height: 100%; font-family: 'Coda', cursive;	padding: 0px;
+	position: relative; }
+
+.informacion-ventajas ul li { font-size: 16px; }
+.informacion-ventajas h2 { color: #fff; font-size: 30px; margin: 0.5em; padding: 0px; color: #ffbf14; }
+.informacion-ventajas ul { color: #fff; font-size: 16px; display: block; margin: 0px; padding: 0px; }
+.informacion-ventajas ul li { margin-bottom: 0.7em; }
+.informacion-ventajas img { float: left; margin-left: 5%; width: 40%; }
+.informacion-ventajas a { width: 20%; padding: 2em; background: #ff7bfa; color: #fff; float: right; margin-top: 5%; margin-right: 10%; font-size: 16px;
+text-align: center; text-decoration: none;  }
+.informacion-ventajas a:hover { background: #bd5bb9; }
+.informacion-ventajas a b { font-size: 26px; color: #fff300; }
+
+/*	----------***************------- BASICO  ----------***************------- */
+.imagen_ideologia { width: 100%; height: 615px; display: block;	overflow: hidden; }
+.imagen_ideologia img { width: 100%; }
+.contenido_ideologia { width: 100%; background: #d600a0 url(../img/cantante1.png) bottom right no-repeat; ; display: block; overflow: hidden; position: relative; }
+
+/*	----------***************------- FULL ----------***************------- */
+.imagen_diferencia { width: 100%; height: 615px; display: block;	overflow: hidden; }
+.imagen_diferencia img { width: 100%; }
+.contenido_diferencia { width: 100%; background: #2f58ff url(../img/cantante2.png) bottom right no-repeat; display: block; overflow: hidden;  position: relative;}
+
+
+/*	----------***************------- HAZTE RICO ----------***************------- */
+.imagen_servicios { width: 100%; height: 400px; display: block; overflow: hidden; background: #333; }
+.imagen_servicios img { width: 100%; }
+.contenido_servicios { width: 100%; background: #e25700 url(../img/cantante3.png) bottom right no-repeat; display: block; overflow: hidden; }
+
+
+/*	----------***************------- GARANTIA ----------***************------- */
+.imagen_trabajo { width: 100%; 	height: 615px; display: block; overflow: hidden; background: #333; }
+.imagen_trabajo img { width: 100%; display: block; }
+.contenido_trabajo { width: 100%; background: #009c0d url(../img/cantante1.png) bottom right no-repeat; display: block; overflow: hidden; background-position: 50% 50%; }
+
+
+/*	----------***************------- CONTACTO ----------***************------- */
+.imagen_marcas { width: 100%; height: 615px; display: block;	overflow: hidden; background: #333; }
+.imagen_marcas img { width: 100%; }
+.contenido_marcas { color: #fff; font-size: 18px; width: 100%; height: 100%; background: #7d83a0 url(../img/cantante4.png) bottom right no-repeat; display: block; overflow: hidden; }
+.contenido_marcas .contacto  { font-size: 18px; } 
+.contenido_marcas b { color: #ff0; }
+
+.whatsapp { background: url(../img/whatsapp.png) top left no-repeat; display: block; width: 200px; height: 35px; padding: 20px; }
+
+/*	----------***************------- TODAS LAS SECCIONES ----------***************------- */
+.foto { width: 20%;	display: block;	float: left; height: 100%; overflow: hidden; position: relative; margin-left: 5%;
+	-webkit-box-shadow: 10px 0 50px 3px #050505; box-shadow: 10px 0 50px 3px #050505;}
+.foto img { height: 100%; float: right; }
+
+.informacion { width: 65%; float: right; margin-right: 5%; display: block; height: 100%; font-family: 'Coda', cursive;	padding: 0px;
+	position: relative; }
+
+.informacion h2 { color: #fff; font-size: 35px; margin: 0px; padding: 0px; color: #ffbf14; }
+.informacion p { color: #fff; font-size: 16px; display: block; margin-bottom: 0.7em; padding: 0px; }
+.informacion ul { color: #fff; font-size: 16px; display: block; margin: 0px; padding: 0px; }
+.informacion ul li { margin-bottom: 0.4em; font-size: 16px; list-style: none; list-style-image: url(../img/bullet.png); }
+
+.informacion .barraizquierda { width: 45%; display: block; float: left; }
+.informacion .barraderecha { width: 45%; display: block; float: right; }
+
+.pieinformacion { display: block; width: 100%; margin: 0px; }
+.pieinformacion .izquierda { width: 45%; display: block; float: left; position: relative; }
+.pieinformacion .derecha { width: 45%; display: block; float: right; overflow: hidden; }
+.pieinformacion .izquierda img { float: left; margin-left: 5%; width: 100%; position: relative; overflow: hidden; }
+.pieinformacion .precio { width: 80%; padding: 2em; background: #ff7bfa; color: #fff; float: right; margin-top: 5%; margin-right: 10%; font-size: 16px;
+text-align: center; text-decoration: none;  }
+.informacion .precio:hover { background: #bd5bb9; }
+.informacion .precio b { font-size: 26px; color: #fff300; }
+.informacion .loquiero { float: right; width: 50%; }
+.informacion .loquiero img { float: right; width: 100%; margin-right: 10%; margin-top: 10%; }
+
+.pieinformacion .pagocontarjeta p {
+	font-weight: bold;
+	color: #ff0;
+	font-size: 24px;
+}
+
+.dudas {
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	padding: 30px 0px 0px 30px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.ventajasin {
+	margin: 25px 0px 0px 0px;
+	display: block;
+	width: 100%;
+	background: #f00;
+	color: #fff;
+	overflow: hidden;
+	text-align: center;
+}
+
+.ventajasin i {
+	display: inline;
+	padding: 3px 20px;
+}
+
+
+.contacto input, .contacto textarea { 
+	padding: 7px 15px;
+	display: block;
+	color: #666;
+	font-weight: bold;
+	margin-bottom: 10px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	width: 300px;
+}
+
+
+
+
+
+
+/*	----------***************------- PIE ----------***************------- */
+.footer{ position:relative; background:url(../img/footer_textures.png) repeat-x; width:100%; height:155px; z-index:3; }
